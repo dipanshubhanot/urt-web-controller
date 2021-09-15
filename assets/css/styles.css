@@ -1,0 +1,13 @@
+:root{
+    --primary-color :#1d4381;
+    --secondary-color: #fff;
+}
+
+.top-bar{
+    background-color: var(--primary-color);
+    justify-content: center;
+}
+.top-bar-logo{
+    height: 10rem;
+    width: auto;
+}
