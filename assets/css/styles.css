@@ -1,6 +1,11 @@
 :root{
     --primary-color :#1d4381;
     --secondary-color: #fff;
+    --background-color: #EEEADE;
+}
+
+body{
+    background-color: var(--background-color);
 }
 
 .top-bar{
