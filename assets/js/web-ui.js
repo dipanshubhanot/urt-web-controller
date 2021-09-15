@@ -116,6 +116,7 @@ window.onload = function () {
     // determine robot address automatically
     // robot_IP = location.hostname;
     // set robot address statically
+    createJoystick();
     robot_IP = "0.0.0.0";
 
     // // Init handle for rosbridge_websocket
@@ -133,6 +134,6 @@ window.onload = function () {
         createJoystick();
         initTeleopKeyboard();
     };
-    createJoystick();
     initTeleopKeyboard();
+
 }
